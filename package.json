@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/mavericardo/js-tdd/issues"
   },
-  "homepage": "https://github.com/mavericardo/js-tdd#readme"
+  "homepage": "https://github.com/mavericardo/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
 }
