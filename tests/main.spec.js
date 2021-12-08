@@ -29,4 +29,32 @@ describe("Calc", () => {
       assert.isFunction(calc.div);
     });
   });
+
+  describe("Sum", () => {
+    it("should return 4 when `calc.sum(2,2)`", () => {
+      expect(calc.sum(2, 2)).to.be.equal(4);
+    });
+  });
+
+  describe("Sub", () => {
+    it("should return 4 when `calc.sub(6,2)`", () => {
+      expect(calc.sub(6, 2)).to.be.equal(4);
+    });
+  });
+
+  describe("Mult", () => {
+    it("should return 4 when `calc.mult(2,2)`", () => {
+      expect(calc.mult(2, 2)).to.be.equal(4);
+    });
+  });
+
+  describe("Div", () => {
+    it("should return 1 when `calc.div(2,2)`", () => {
+      expect(calc.div(2, 2)).to.be.equal(1);
+    });
+
+    it("should return `Não é possível divisão por zero!` when divide by 0`", () => {
+      expect(calc.div(4, 0)).to.be.equal("Não é possível divisão por zero!");
+    });
+  });
 });
